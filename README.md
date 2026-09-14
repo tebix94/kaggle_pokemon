@@ -11,9 +11,9 @@ The present file is the final work for the 2026Q3 class "Programacion avanzada o
 
 ### 1. UV installation
 
-Windows
+Windows (Powershell)
 ```
-curl -LsSf https://astral.sh/uv/install.sh | sh
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 Linux (Bash)
 ```
